@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>druga</title>
+</head>
+
+<body>
+    <form action="treca.html">
+        <table border="1px solid black">
+            <tr>
+                <td>
+                    <label for="status">Status:</label>
+                </td>
+                <td>
+                    <label for="redovan">Redovan</label>
+                    <input type="radio" id="redovan" name="status" value="Redovan" checked>
+                    <label for="izvanredan">Izvanredan</label>
+                    <input type="radio" id="izvanredan" name="status" value="Izvanredan">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="abc@oss.unist.hr">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="smjer">Smjer:</label>
+                </td>
+                <td>
+                    <select id="smjer" name="smjer">
+                        <option value="BazePodatka">Baze podataka</option>
+                        <option value="DiskretnaMat">Diskretna Matematika</option>
+                        <option value="PNI">Programiranje Na Internetu</option>
+                        <option value="UNIX">Programski alati na UNIX racunalima</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zavrsni">Zavrsni:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="zavrsni" name="zavrsni">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Next">
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
